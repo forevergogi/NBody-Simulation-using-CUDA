@@ -1,0 +1,10 @@
+﻿  Compiling CUDA source file NBodyCuda.cu...
+  
+  F:\Gpu Project\NBody\NBody>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64" -x cu  -I./SDL/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\NBodyCuda.cu.obj "F:\Gpu Project\NBody\NBody\NBodyCuda.cu" 
+F:/Gpu Project/NBody/NBody/NBodyCuda.cu(61): warning : statement is unreachable
+F:/Gpu Project/NBody/NBody/NBodyCuda.cu(204): warning : variable "currentRead" was declared but never referenced
+F:/Gpu Project/NBody/NBody/NBodyCuda.cu(61): warning : statement is unreachable
+F:/Gpu Project/NBody/NBody/NBodyCuda.cu(240): warning : a __constant__ variable "collision_damping" cannot be directly read in a host function
+  NBodyCuda.cu
+  Sakuya.vcxproj -> F:\Gpu Project\NBody\x64\Debug\NBody.exe
+  Sakuya.vcxproj -> F:\Gpu Project\NBody\x64\Debug\NBody.pdb (Partial PDB)
